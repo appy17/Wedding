@@ -395,7 +395,7 @@ img {
 	margin: 0;
 	padding: 0;
 	font-size: 24px;
-	color: #e25c67;
+	color: #7e4861;
 	line-height: 1;
 }
 
@@ -456,6 +456,7 @@ body {
 	/* height: 100vh;
     width: 100%; */
 	flex-direction: column;
+	background-color: #e2eaea;
 }
 
 .title {
@@ -466,7 +467,7 @@ body {
 	width: auto;
 	height: auto;
 	padding: 7px;
-	background-color: #eee;
+	background-color: #c5c5c5;
 	border-radius: 20px;
 	font-size: 14px;
 }
