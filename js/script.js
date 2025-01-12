@@ -20,9 +20,13 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
+document.addEventListener('DOMContentLoaded', function() {
+    const audioElement = document.getElementById("my_audio");
+    if (audioElement) {
+        audioElement.play()
+            .then(() => console.log('Shaadi me zaroor aana'))
+            .catch(err => console.error('Autoplay failed:', err));
+    }
 });
 
 // Set the date we're counting down to
